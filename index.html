@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>정보보호학개론 팀 블로그 | Team Safe Zone</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #e8f0fe, #ffffff);
+      color: #333;
+    }
+
+    nav {
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #007acc;
+      font-weight: 600;
+    }
+
+    .hero {
+      background-color: #007acc;
+      color: white;
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .team-intro {
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+      margin-bottom: 30px;
+      max-width: 720px;
+      width: 100%;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #007acc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .banner {
+      max-width: 700px;
+      width: 90%;
+      margin: 40px auto 20px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="posts.html">글 목록</a></li>
+      <li><a href="new-post.html">글 작성</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Team Safe Zone</h1>
+    <p>정보보호학개론</p>
+  </header>
+
+  <!-- 팀 배너 (있으면 이미지 넣어도 되고, 없으면 이 줄 지워도 됨) -->
+  <!-- <img class="banner" src="team-banner.png" alt="Team Banner" /> -->
+
+  <main class="team-intro">
+    <section class="card">
+      <h2>📌 프로젝트</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript 소개 및 활용</li>
+        <li>트로이목마와 디지털 포렌식 실습</li>
+        <li>세계보안엑스포 기업 분석 및 후기</li>
+        <li>운영체제 기반 시스템 보안 기능 비교</li>
+        <li>네트워크 패킷 분석 및 도구 활용 (Wireshark, hping3)</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>👥 팀 구성원</h2>
+      <p>최유미, 조윤서, 김윤호, 강민혁, 어영민</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Team Safe Zone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
